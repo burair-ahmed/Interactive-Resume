@@ -5,7 +5,7 @@ export default function About() {
     <div className="grid grid-cols-12 ">
       <div className="col-span-12 mx-auto w-3/5">
       <p className="about-para">
-        Hello! I’m Burair Ahmed. Senior Web Developer specializing in front end
+        Hello! I&#39;m Burair Ahmed. Senior Web Developer specializing in front end
         development. Experienced with all stages of the development cycle for
         dynamic web projects. Well-versed in numerous programming languages
         including JavaScript, SQL, and C. Stng background in project management

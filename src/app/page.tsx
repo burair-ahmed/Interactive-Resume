@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 // Ensure the component name is capitalized
 import Hero from "./Hero-section/hero";
 import Resume from "./Download-resume/resume";
