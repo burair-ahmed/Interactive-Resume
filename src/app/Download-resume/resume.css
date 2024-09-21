@@ -1,0 +1,23 @@
+.resume-bton {
+    border: 0.5px solid #cbcdcf;
+    padding: 15px 20px 15px 20px;
+    color: #3d4451 !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+
+    margin-top: 50px;
+}
+
+.resume-bton:hover {
+    border: 0.25px solid #cbcdcf !important;
+    padding: 15px 20px 15px 20px;
+    color: #3d4451 !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.2s;
+}

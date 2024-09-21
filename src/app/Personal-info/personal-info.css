@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .p-info-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+
+.main-container {
+
+   background-color: white;
+   margin-top: -12em;
+   z-index: 2;
+   position: relative;
+   padding-top: 20px;
+   
+
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.secondary-container {
+    background-color: #07CB79;
+    z-index: 2;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+  .p-info-box {
+    background-color: transparent;
+}
+
+.profile-image{
+    border-radius: 15px !important;
+    width: 100%;
+padding: 0px 20px 20px 20px ;
+
+}
+
+.hlo-txt {
+    
+    font-weight: 800;
+    color: white;
+    padding: 5px 12px 5px 12px;
+    display: inline-block;
+    background-color: #07CB79;
+}
+
+
+.personal-name{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.profession{
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+.hr-personal {
+    margin-top: 20px;
+    width: 90%;
+}
+
+.info-parameters{
+    font-weight: 800;
+    text-transform: uppercase;
+ font-size: 14px;
+}
+.info-parameters-row{
+    margin-top: 10px;
+}
+
+.available-parameter {
+    font-weight: 800;
+    color: white;
+    padding: 5px 7px 5px 7px;
+    display: inline-block;
+    background-color: #07CB79; 
+    font-size: 12px !important;
+    border-radius: 5px;
+}
+
+
+
+.social-icons1 {
+    color: blue; /* Desired color */
+    font-size: 10px !important; /* Desired size */
+    margin: 0 10px; /* Space between icons */
+  }
