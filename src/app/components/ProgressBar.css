@@ -1,0 +1,25 @@
+/* .progress-bg{
+    background: #07CB79 !important;
+    transition: width 0.3s ease;
+} */
+
+.percent-hd {
+    font-size: 14px;
+}
+
+.percent-val {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.progress-bg {
+    transition: width 1.5s ease-in-out; /* Animate the width change */
+  }
+  
+  /* Optional: Style for the container */
+  .progress-container {
+    background-color: #e5e7eb; /* Tailwind's gray-300 */
+    border-radius: 9999px; /* Fully rounded */
+margin-bottom: 1em;  
+}
+  

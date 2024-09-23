@@ -1,0 +1,16 @@
+.section-heading{
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.main-section-skills{
+    /* margin-bottom: 3em; */
+}
+
+.main-container-skills {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 35px;
+}
