@@ -31,9 +31,8 @@ export default function Personal() {
               <h1 className="hlo-txt">HELLO</h1>
             </div>
             <div>
-              <h1 className="personal-name">
-                I'm <b>Burair Ahmed</b>
-              </h1>
+            <h1 className="personal-name">I&apos;m <b>Burair Ahmed</b></h1>
+
               <h1 className="profession">Web Developer</h1>
             </div>
             <hr className="hr-personal" />
