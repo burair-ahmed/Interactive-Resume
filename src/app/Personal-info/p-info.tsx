@@ -1,9 +1,7 @@
 import Image from "next/image";
 import "./personal-info.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faTwitter, faInstagram, faLinkedin, faFacebookF } from '@fortawesome/free-brands-svg-icons';
-
-import { faCoffee, faUser, faMagnifyingGlass, faCircleStop, faCalendarDays } from '@fortawesome/free-solid-svg-icons';
+import {  faTwitter, faInstagram, faLinkedin, faFacebookF } from '@fortawesome/free-brands-svg-icons';
 
 
   
