@@ -41,7 +41,7 @@ export default function Personalinfo() {
                     <h1 className="info-parameters">Age</h1>
                   </div>
                   <div className="col-span-9">
-                    <h1>18</h1>
+                    <h1>18 Years</h1>
                   </div>
                 </div>
               </div>
