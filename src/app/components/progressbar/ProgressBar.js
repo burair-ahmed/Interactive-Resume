@@ -1,7 +1,7 @@
 "use client"; // Marking this component as a Client Component
 
 import React, { useEffect, useState } from 'react';
-import "./ProgressBar.css";
+import "../ProgressBar.css";
 
 // Function to determine the color based on the percentage
 const getProgressColor = (value) => {

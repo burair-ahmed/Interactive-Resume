@@ -1,0 +1,39 @@
+.timeline {
+    position: relative;
+    padding-left: 50%;
+    border-left: 2px solid #00ff00; /* Customize the border color */
+  }
+
+  .timeline-border-style {
+    color: #00ff00 !important;
+    border-width: 2.75px !important;
+    border-radius: 30px;
+  }
+
+  .timeline-box {
+    padding: 25px;
+    background-color: #fff;
+    border-top: #07cb79 7px solid;
+  }
+
+  .year-style {
+    color: #07cb79;
+    font-size: 22px;
+  }
+
+  .company-style{
+    font-size: 32px;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+
+  .title-style{
+    font-size: 22px;
+    margin-top: 0.8em;
+    color: #727171;
+  }
+
+  .description-style{
+    font-size: 16px;
+    margin-top: 3em;
+  }

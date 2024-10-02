@@ -5,6 +5,7 @@ import Resume from "./Download-resume/resume";
 import Personalinfo from "./Personal-info/p-info";
 import About from "./About/about";
 import Skills from "./Skills/skills";
+import Experience from "./Experience/experience";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Resume/>
       <About/>
       <Skills />
+      <Experience />
     </div>
   );
 }
