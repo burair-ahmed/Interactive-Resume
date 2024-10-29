@@ -6,7 +6,7 @@ export default function Hero() {
       <Image
         src="/assets/blog2-cropped.jpg"
         alt="Hero Section Image"
-        width={1920}
+        width={2160}
         height={700}
         className="abc123"
       />

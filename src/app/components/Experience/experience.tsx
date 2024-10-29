@@ -1,5 +1,5 @@
 import "./experience.css";
-import Timeline from "../components/timeline/Timeline";
+import Timeline from "../timeline/Timeline";
 
 export default function Experience() {
   return (

@@ -1,13 +1,20 @@
 .timeline {
     position: relative;
     padding-left: 50%;
-    border-left: 2px solid #00ff00; /* Customize the border color */
+    border-left: 2px solid #c0e8d7 !important; /* Customize the border color */
+    ;
   }
 
   .timeline-border-style {
-    color: #00ff00 !important;
+    color: #c0e8d7 !important;
     border-width: 2.75px !important;
     border-radius: 30px;
+    content: '';
+    width: 4px !important;
+    opacity: 2;
+    margin-left: -2px;
+    position: absolute;
+    left: 50%;
   }
 
   .timeline-box {

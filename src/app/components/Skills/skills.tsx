@@ -1,5 +1,5 @@
 import "./skills.css";
-import Progressbar from "../components/progressbar/ProgressBar";
+import Progressbar from "../progressbar/ProgressBar";
 export default function Skills() {
   return (
     <div>

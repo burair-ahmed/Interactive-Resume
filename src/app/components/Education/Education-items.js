@@ -1,6 +1,6 @@
 import React from "react";
 
-const TimelineItem = ({ year, company, title, description, isRight }) => {
+const EducationItem = ({ year, company, title, description, isRight }) => {
   return (
     <div className={`mb-8  flex justify-between items-center w-full ${isRight ? "flex-row-reverse" : ""}`}>
       <div className="w-5/12"></div>
@@ -17,4 +17,4 @@ const TimelineItem = ({ year, company, title, description, isRight }) => {
   );
 };
 
-export default TimelineItem;
+export default EducationItem;

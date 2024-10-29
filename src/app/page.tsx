@@ -1,11 +1,12 @@
 
 // Ensure the component name is capitalized
-import Hero from "./Hero-section/hero";
-import Resume from "./Download-resume/resume";
-import Personalinfo from "./Personal-info/p-info";
-import About from "./About/about";
-import Skills from "./Skills/skills";
-import Experience from "./Experience/experience";
+import Hero from "./components/Hero-section/hero";
+import Resume from "./components/Download-resume/resume";
+import Personalinfo from "./components/Personal-info/p-info";
+import About from "./components/About/about";
+import Skills from "./components/Skills/skills";
+import Experience from "./components/Experience/experience";
+import Education from  "./components/Education/education";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <About/>
       <Skills />
       <Experience />
+      <Education />
     </div>
   );
 }

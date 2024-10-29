@@ -1,10 +1,9 @@
 import React from "react";
-import "./Timeline.css";
-import TimelineItem from "./Timeline-items"; // Import the TimelineItem component
-
-const Timeline = () => {
+import "./Education.css";
+import EducationItem from "./Education-items"
+const Education = () => {
   // You can define your timeline data directly in the component
-  const timelineItems = [
+  const EducationItems = [
     {
       year: "2014 - 2016",
       company: "APPLE",
@@ -51,8 +50,8 @@ const Timeline = () => {
         <div className="border-5 absolute border-opacity-100 timeline-border-style h-full border left-1/2"style={{borderColor:'#c0e8d7'}}></div>
 
         <div >
-        {timelineItems.map((item, index) => (
-          <TimelineItem 
+        {EducationItems.map((item, index) => (
+          <EducationItem 
           
             key={index}
             year={item.year}
@@ -68,4 +67,4 @@ const Timeline = () => {
   );
 };
 
-export default Timeline;
+export default Education;
